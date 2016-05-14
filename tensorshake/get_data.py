@@ -56,7 +56,7 @@ def get_shakespeare_parallel_set():
     print( subprocess.check_output(['wc', '-l', ORIGINAL_PATH]) )
 
 
-def split_shakespeare_parallel_set(split_size=30000):
+def split_shakespeare_parallel_set(split_size=1300):
     # split the dataset into train and dev sets (i'm using shell scripts)
 
     subprocess.call(['split', '-l', str(split_size), MODERN_PATH])
