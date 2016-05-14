@@ -11,7 +11,7 @@ import subprocess
 from tensorshake import get_dir, CACHE_DIR
 
 DATA_LINKS = {
-    "data/shakespeare/sparknotes/merged": "https://github.com/cocoxu/Shakespeare/tree/master/data/align/plays/merged"
+    "data/shakespeare/enotes/merged": "https://github.com/cocoxu/Shakespeare/tree/master/data/align/plays/merged"
 }
 
 MODERN_FILENAME = "all_modern.snt.aligned"
